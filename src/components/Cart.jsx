@@ -48,7 +48,7 @@ export default function Cart() {
                         <tbody>
                             {items.map(item => (
                                 <tr key={item.id} className="border-b">
-                                    <td scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <td  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                         <img className="img-cart rounded-full" src={item.img} alt={item.name} />
                                     </td>
                                     <td className="px-6 py-4">
