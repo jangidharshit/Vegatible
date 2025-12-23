@@ -31,7 +31,7 @@ const Hero = () => {
                                 </div>
                                 <div className='w-full h-full relative'>
                                     <img className='border rounded-md w-full h-full' src="../img/hero-img-2.jpg" alt="" />
-                                    <span className='img absolute top-2/4 left-2/4 py-3 text-2xl font-bold px-10 text-white'>Vesitables</span>
+                                    <span className='img absolute top-2/4 left-2/4 py-3 text-2xl font-bold px-10 text-white'>Vegetables</span>
                                 </div>
                             </Slider>
                         </div>
