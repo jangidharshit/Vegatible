@@ -34,18 +34,18 @@ const Header = () => {
             </div>
 
             {/* Logo */}
-           {/* Logo + Hamburger */}
-<div className="flex justify-between items-center m-6">
-  <div className='main-text text-3xl sm:text-4xl font-extrabold'>
-    <Link to='/'>Fruitables</Link>
-  </div>
+            {/* Logo + Hamburger */}
+            <div className="flex justify-between items-center m-6">
+                <div className='main-text text-3xl sm:text-4xl font-extrabold'>
+                    <Link to='/'>Fruitables</Link>
+                </div>
 
-  {/* ✅ Hamburger RIGHT SIDE */}
-  <i
-    className='fa fa-bars xl:hidden bars text-xl cursor-pointer'
-    onClick={() => setBar(!bar)}
-  ></i>
-</div>
+                {/* ✅ Hamburger RIGHT SIDE */}
+                <i
+                    className='fa fa-bars xl:hidden bars text-xl cursor-pointer'
+                    onClick={() => setBar(!bar)}
+                ></i>
+            </div>
 
 
 
@@ -96,8 +96,8 @@ const Header = () => {
                 </div>
             </ul>
 
-            
-           
+
+
         </div>
     );
 };
